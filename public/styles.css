@@ -1,0 +1,381 @@
+:root {
+    --bs-primary: #6366f1;
+    --bs-primary-rgb: 99, 102, 241;
+    --bs-primary-rgb-sub: 99, 102, 241;
+    --bs-primary-bg: #4338ca;
+    --bs-primary-bg-sub: #4338ca;
+    --bs-primary-border: #4338ca;
+    --bs-primary-border-sub: #4338ca;
+    --bs-primary-text: #ffffff;
+    --bs-primary-text-sub: #ffffff;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+.card {
+    background-color: #1e293b;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content>.tab-pane {
+    display: block;
+}
+
+.card-header {
+    background-color: #1e293b;
+    border-bottom: 1px solid #334155;
+}
+
+.form-control:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 0.25rem rgba(79, 70, 229, 0.25);
+}
+
+.spinner-border {
+    color: #6366f1;
+}
+
+.error {
+    color: #f87171;
+}
+
+.success {
+    color: #34d399;
+}
+
+.token-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: #1e293b;
+    border-radius: 0.5rem;
+}
+
+.token-logo-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #334155;
+}
+
+.token-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.token-placeholder {
+    font-size: 24px;
+    color: #6366f1;
+}
+
+.token-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.token-name {
+    font-weight: 600;
+}
+
+.token-symbol {
+    font-size: 0.875rem;
+    color: #94a3b8;
+}
+
+.nav-link {
+    color: #f8fafc;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+}
+
+.nav-link:hover {
+    color: #6366f1;
+}
+
+.nav-link.active {
+    color: #4f46e5;
+    border-bottom: 2px solid #4f46e5;
+}
+
+/* Style for tab buttons */
+.btn-outline-primary {
+    color: #f8fafc;
+    border-color: #4f46e5;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #6366f1;
+    border-color: #6366f1;
+}
+
+.btn-outline-primary.active {
+    color: #ffffff;
+    background-color: #6366f1;
+    border-color: #6366f1;
+}
+
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25);
+}
+
+/* Fix layout structure */
+.card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    background-color: #1e293b;
+    border-bottom: 1px solid #334155;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.card-body {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* Compact transfer cards */
+.list-group-item {
+    padding: 0.5rem;
+    border: 1px solid #334155;
+    background-color: #1e293b;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+    border-color: #4f46e5;
+    background-color: #253248;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Transfer card styles */
+.transfer-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0.5rem;
+}
+
+.transfer-card-item {
+    padding: 0.5rem;
+    border: 1px solid #334155;
+    border-radius: 0.5rem;
+    background-color: #1e293b;
+    transition: all 0.2s ease;
+}
+
+.transfer-card-item:hover {
+    border-color: #4f46e5;
+    background-color: #253248;
+}
+
+.transfer-card-item small {
+    color: #94a3b8;
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+}
+
+.transfer-card-item p {
+    margin: 0;
+    color: #f8fafc;
+    font-size: 0.9rem;
+}
+
+/* Enhanced Solscan button */
+.transfer-card-item .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+}
+
+.transfer-card-item .btn:hover {
+    background-color: #4f46e5;
+    color: white;
+}
+
+/* Compact text and spacing */
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-title small {
+    font-size: 0.8rem;
+    color: #94a3b8;
+}
+
+/* Compact transfer details */
+.transfer-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.transfer-details div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Compact buttons */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Compact code display */
+code {
+    font-size: 0.85rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #334155;
+    border-radius: 0.25rem;
+    color: #2abf1a;
+}
+
+/* Compact badge */
+.badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.form-control {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #334155;
+}
+
+.form-control:focus {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25);
+}
+
+.form-label {
+    color: #f8fafc;
+}
+
+/* Fix alert styles */
+.alert {
+    background-color: #1e293b;
+    border: none;
+    border-left: 4px solid #4f46e5;
+    color: #f8fafc;
+}
+
+.alert-success {
+    border-left-color: #34d399;
+}
+
+.alert-danger {
+    border-left-color: #f87171;
+}
+
+.alert-info {
+    border-left-color: #60a5fa;
+}
+
+.alert-heading {
+    color: #f8fafc;
+}
+
+.alert-link {
+    color: #6366f1;
+}
+
+.alert-link:hover {
+    color: #4338ca;
+}
+
+.alert {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.alert-info {
+    background-color: #1e293b;
+    border-left: 4px solid #60a5fa;
+}
+
+.alert-success {
+    background-color: #1e293b;
+    border-left: 4px solid #34d399;
+}
+
+.alert-danger {
+    background-color: #1e293b;
+    border-left: 4px solid #f87171;
+}
+
+.alert-heading {
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca;
+    border-color: #4338ca;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#loading-screen .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: #6366f1;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}

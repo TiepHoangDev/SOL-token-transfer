@@ -22,7 +22,7 @@ function deriveKeypairFromMnemonic(mnemonic, accountIndex = 0) {
 /**
  * Transfer SPL Token (1-1)
  */
-async function transfer1_1({
+module.exports.transfer1_1 = async function({
   senderMnemonic,
   receiverMnemonic,
   mintAddress,
@@ -98,8 +98,6 @@ async function transfer1_1({
     receiver: receiver.publicKey.toBase58()
   };
 }
-
-module.exports = transfer1_1;
 
 // === CLI Mode ===
 if (require.main === module) {

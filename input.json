@@ -1,19 +1,18 @@
 {
-    "senderMnemonic": "erode lady picture gun critic injury middle promote motion begin zero fatal",
-    "senderAccountIndex": 1,
-    "receivers": [
-      {
-        "mnemonic": "genius own blush winter together torch myth north depart auto practice frequent",
-        "accountIndex": 0,
-        "amount": 1
-      },
-      {
-        "mnemonic": "tumbletumbletumbletumbletumbletumble roof rapid describe elite armor twenty update flee setup window swing2",
-        "accountIndex": 0,
-        "amount": 2
-      }
-    ],
-    "mintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr",
-    "isMainnet": false
-  }
-  
+  "senderMnemonic": "erode lady picture gun critic injury middle promote motion begin zero fatal",
+  "senderAccountIndex": 1,
+  "receivers": [
+    {
+      "mnemonic": "genius own blush winter together torch myth north depart auto practice frequent",
+      "accountIndex": 0,
+      "amount": 1
+    },
+    {
+      "mnemonic": "tumbletumbletumbletumbletumbletumble roof rapid describe elite armor twenty update flee setup window swing",
+      "accountIndex": 0,
+      "amount": 2
+    }
+  ],
+  "mintAddress": "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr",
+  "isMainnet": false
+}
